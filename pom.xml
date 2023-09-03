@@ -11,9 +11,15 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <serenity.version>2.1.0</serenity.version>
-        <serenity.cucumber.version>1.9.50</serenity.cucumber.version>
+        <!--serenity.version>2.1.5</serenity.version>
+        <serenity.cucumber.version>1.9.50</serenity.cucumber.version-->
+        <serenity.version>3.9.8</serenity.version>
+        <serenity.cucumber.version>3.9.8</serenity.cucumber.version>
         <webdriver.driver>chrome</webdriver.driver>
+        <encoding>UTF-8</encoding>
+        <tags></tags>
+        <parallel.tests></parallel.tests>
+        <webdriver.base.url></webdriver.base.url>
     </properties>
 
     <repositories>
@@ -97,7 +103,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.2</version>
+                <version>3.8.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
