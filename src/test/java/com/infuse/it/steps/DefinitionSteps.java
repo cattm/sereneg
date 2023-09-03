@@ -21,12 +21,12 @@ public class DefinitionSteps {
         anna.is_the_home_page();
     }
 
-    @When("the user looks up the definition of the word '(.*)'")
+    @When("the user looks up the definition of the word {string}")
     public void whenTheUserLooksUpTheDefinitionOf(String word) {
         anna.looks_for(word);
     }
 
-    @Then("they should see the definition '(.*)'")
+    @Then("they should see the definition {string}")
     public void thenTheyShouldSeeADefinitionContainingTheWords(String definition) {
         anna.should_see_definition(definition);
     }
