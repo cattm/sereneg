@@ -10,11 +10,12 @@ public class MainPage extends PageObject {
     // Add page view specific identifiers and methods
 
     /* to demonstrate the use - compare the text in the first paragraph
-    Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary.
+    Welcome to the English-language Wiktionary, a collaborative project to produce a
+    free-content multilingual dictionary.
     It aims to describe all words of all languages using definitions and descriptions in English.
      */
 
-    @FindBy(css="table#main_page_mp_mp body tr td div #text")
+    @FindBy(css = "table#main_page_mp_mp body tr td div #text")
     private WebElementFacade firstPara;
 
 
