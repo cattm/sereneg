@@ -5,8 +5,10 @@ import com.infuse.it.steps.actions.EndUserSteps;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import net.serenitybdd.annotations.Steps;
 
-import net.thucydides.core.annotations.Steps;
+
+//import net.thucydides.core.annotations.Steps;
 
 public class DefinitionSteps {
 

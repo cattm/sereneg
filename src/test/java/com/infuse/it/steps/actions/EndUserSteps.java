@@ -1,7 +1,8 @@
 package com.infuse.it.steps.actions;
 
 import com.infuse.it.pages.DictionaryPage;
-import net.thucydides.core.annotations.Step;
+import net.serenitybdd.annotations.Step;
+//import net.thucydides.core.annotations.Step;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
