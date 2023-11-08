@@ -59,6 +59,7 @@ pom.xml.tag
 
 # Gradle
 .gradle/
+build.gradle
 
 #drivers
 src/test/resources/drivers/
