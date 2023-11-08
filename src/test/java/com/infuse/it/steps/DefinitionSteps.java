@@ -1,6 +1,6 @@
 package com.infuse.it.steps;
 
-import com.infuse.it.steps.serenity.EndUserSteps;
+import com.infuse.it.steps.actions.EndUserSteps;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,17 +15,17 @@ public class DefinitionSteps {
 
     @Given("the user is on the Wikionary home page")
     public void givenTheUserIsOnTheWikionaryHomePage() {
-        anna.is_the_home_page();
+        anna.isTheHomePage();
     }
 
     @When("the user looks up the definition of the word {string}")
     public void whenTheUserLooksUpTheDefinitionOf(String word) {
-        anna.looks_for(word);
+        anna.looksFor(word);
     }
 
     @Then("they should see the definition {string}")
     public void thenTheyShouldSeeADefinitionContainingTheWords(String definition) {
-        anna.should_see_definition(definition);
+        anna.shouldSeeDefinition(definition);
     }
 
 }

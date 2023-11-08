@@ -20,7 +20,7 @@ public class MainPage extends PageObject {
 
 
 
-    public String return_first_para() {
+    public String returnFirstPara() {
         return firstPara.getText();
     }
 }

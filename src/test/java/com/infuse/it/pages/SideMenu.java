@@ -12,7 +12,7 @@ public class SideMenu extends PageObject {
     @FindBy(id = "n-mainpage-text")
     private WebElementFacade mainPage;
 
-    public void click_main_page() {
+    public void clickMainPage() {
         mainPage.click();
     }
 }

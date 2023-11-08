@@ -23,7 +23,7 @@ public class DictionaryPage extends PageObject {
         searchTerms.type(keyword);
     }
 
-    public void lookup_terms() {
+    public void lookupTerms() {
         lookupButton.click();
     }
 
